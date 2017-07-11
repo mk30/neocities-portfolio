@@ -1,0 +1,59 @@
+body{
+  background-image: url('/portfolioimg/onthebalcony.png'); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: monospace;
+  color: white;
+  margin-bottom: 100px;
+}
+h1 {
+  display: inline;
+}
+.section {
+  display: relative;
+  min-height: 20ex;
+}
+.section .label {
+  transform: rotate(-90deg) translate(-10ex,-10ex);
+  width: 20ex;
+  margin-left: 0.5em;
+  margin-top: 1em;
+  background-color: purple;
+  text-align: center;
+  color: white;
+}
+.section .label a:link, .section .label a:visited {
+  color: white;
+  text-decoration: none;
+}
+.section .content {
+  margin-left: 1.5em;
+}
+.section .content .project {
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+  margin-bottom: 1em;
+  margin-top: -9px;
+  border: 1px solid transparent;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.section .content .project:hover {
+  border-color: white;
+}
+.section .content .project .img {
+  display: inline-block;
+  width: 200px;
+  height: 100px;
+}
+.demo {
+  width: 300px;
+  height: 169px;
+  border: 1px solid transparent;
+}
+.demo:hover {
+  border: 1px solid white;
+}
